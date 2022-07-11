@@ -1,0 +1,227 @@
+.banner_t1{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+.anh_ipx{
+    align-self: center;
+    background-image: url(https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png);
+    background-size: 468.32px 634.15px;
+    flex-basis: 380.32px;
+    height: 630.15px;
+    margin-bottom: 12px;
+    margin-right: 32px;
+    background-position: -46px 0px;
+    
+     
+}
+.anh_me{
+    margin: 27px 0 0 113px;
+    /* position: 23%; */
+    overflow: hidden;
+    display: flex;
+    animation-name:quangtung;
+    animation-duration:5s ;
+    
+}
+@keyframes quangtung{
+    20%{
+        margin-left:0 ;
+    }
+    30%{
+        margin-left:-100 ;
+    }
+    40%{
+        margin-left:-100 ;
+    }
+    50%{
+        margin-left:-200 ;
+    }
+    60%{
+        margin-left:-200 ;
+    }
+    70%{
+        margin-left:-300 ;
+    }
+    80%{
+        margin-left:-300 ;
+    }
+    90%{
+        margin-left:-700;
+    }
+    100%{
+        margin-left:-700 ;
+    }
+
+    
+
+}
+.anhtoi{
+    height:527.84px;
+    width:  250px;
+    /* position: absolute; */
+   /* visibility: hidden; */
+
+}
+.anht3{
+    
+}
+
+.box_dangnhap{
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    /* margin: 0 0 10px; */
+    padding: 10px 40px;
+    max-width: 384px;
+    
+   
+}
+.taikhoan{
+    border: 1px rgba(var(--b3f,250,250,250),1);
+    
+    /* padding: 9px 0 7px 7px; */
+    padding: 2px 3px;
+}
+.matkhau{
+    /* padding: 2px 0 7px 7px; */
+    padding: 2px 3px;
+}
+.tkk_mk{
+    width: 285px;
+    padding: 9px 0 7px 8px;
+    border-radius: 3px;
+    border: 1px #a6aaac93 solid ;
+    font-size: 16px;
+}
+.dn{
+    font-family: Verdana;
+    width: 285px;
+    background-color: #0095f6;
+    opacity: 0.4;
+    border-radius: 5px;
+    border: 1px #0095f6;
+
+}
+.dangnhap{
+    padding: 8px 3px;
+   
+    
+}
+.noidung{
+    width: 285px;
+    
+}
+.login{
+    padding:5px 9px ;
+    color: white;
+}
+.logo_ig{
+    display: flex;
+    justify-content: center;
+    padding: 37px  ;
+}
+.anh_ig{
+    justify-content: center;
+}
+.tk_mk{
+    
+}
+.or{
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    color: #999;
+    margin: 0 auto;
+}
+.or span{
+    display: inline-block;
+    padding: 10px 30px;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+}
+.or:after{
+    content: " ";
+    width: 100%;
+    position: absolute;
+    height: 1px;
+    top: 50%;
+    left: 0;
+    background-color: #999;
+}
+.hoac{
+    padding:24px  ;
+}
+.dn_bangfb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 8px;
+    color: #385185;
+    padding-top: 1px;
+}
+.quenmk{
+    color: rgba(var(--fe0,0,55,107),1);
+    font-size: 15px;
+    line-height: 16px;
+    margin-top: 12px;
+    text-align: center;
+    padding-top: 20px;
+}
+.dangky{
+    border: 1px solid rgba(var(--b6a,219,219,219),1);;
+    font-size: 12px;
+    font-family: Verdana;
+}
+.tung{
+    display: flex;
+    flex-direction: column;
+}
+.nd_dk{
+    padding:23px 70px
+   
+}
+.maudk{
+    color: rgba(var(--d69,0,149,246),1);
+    font-weight:600;
+}
+.dktk{
+    padding-top: 10px;
+}
+.taiapp{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana;
+    font-size: 14px;
+}
+.dowload{
+    padding-top: 20px;
+}
+.as{
+    width: 136px;
+    height: 40px;
+}
+.app{
+    display: flex;
+    justify-content: center;
+    gap: 0 8px;
+    padding-top: 20px;
+}
+/* cuoi trang */
+.nd_intro{
+    text-align: center;
+ padding:0 16px ;
+ word-spacing: 16px;
+  
+}
+.intro{
+    text-align: center;
+    font-size: 12px;
+   
+}
+.anhtoi{
+    height: 527.84px;
+    width: 250px;
+}
+
