@@ -1,71 +1,23 @@
-.banner_t1{
+ .banner_t1{
     display: flex;
     justify-content: center;
     overflow: hidden;
     
 }
+.anh{
+    width: 250px;
+    height: 527px;
+    position: absolute;
+    top:0;
+    right: 0;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+.anh img{
+    height: 100%;
+}
 .anh_ipx{
-    align-self: center;
-    background-image: url(https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png);
-    background-size: 468.32px 634.15px;
-    flex-basis: 380.32px;
-    height: 630.15px;
-    margin-bottom: 12px;
-    margin-right: 32px;
-    background-position: -46px 0px;
-    
-     
-}
-.anh_me{
-    margin: 27px 0 0 113px;
-    /* position: 23%; */
-    overflow: hidden;
-    display: flex;
-    animation-name:quangtung;
-    animation-duration:5s ;
-    
-}
-@keyframes quangtung{
-    20%{
-        margin-left:0 ;
-    }
-    30%{
-        margin-left:-100 ;
-    }
-    40%{
-        margin-left:-100 ;
-    }
-    50%{
-        margin-left:-200 ;
-    }
-    60%{
-        margin-left:-200 ;
-    }
-    70%{
-        margin-left:-300 ;
-    }
-    80%{
-        margin-left:-300 ;
-    }
-    90%{
-        margin-left:-700;
-    }
-    100%{
-        margin-left:-700 ;
-    }
-
-    
-
-}
-.anhtoi{
-    height:527.84px;
-    width:  250px;
-    /* position: absolute; */
-   /* visibility: hidden; */
-
-}
-.anht3{
-    
+    position: relative;
 }
 
 .box_dangnhap{
